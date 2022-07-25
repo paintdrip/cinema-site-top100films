@@ -1,5 +1,5 @@
 ## Cinema Site Top Films
-___
+
 #### Home page
 ![preview-1](https://i.ibb.co/x8p09pW/test1.png)
 #### Search example

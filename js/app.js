@@ -1,8 +1,6 @@
 const API_KEY = "197446f3-9eab-475d-a19f-9ffdb741466c";
-const API_URL_POPULAR =
-    "https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_100_POPULAR_FILMS&page=1";
-const API_URL_SEARCH =
-    "https://kinopoiskapiunofficial.tech/api/v2.1/films/search-by-keyword?keyword=";
+const API_URL_POPULAR = "https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_100_POPULAR_FILMS&page=1";
+const API_URL_SEARCH = "https://kinopoiskapiunofficial.tech/api/v2.1/films/search-by-keyword?keyword=";
 const API_URL_MOVIE_DETAILS = "https://kinopoiskapiunofficial.tech/api/v2.2/films/"
 
 getMovies(API_URL_POPULAR);
@@ -30,7 +28,6 @@ function getClassByRate(vote) {
 
 function showMovies(data) {
     const moviesEl = document.querySelector(".movies");
-
     // Очищаем предыдущие фильмы
     document.querySelector(".movies").innerHTML = "";
 
